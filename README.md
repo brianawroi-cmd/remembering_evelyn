@@ -20,22 +20,23 @@ This site honors Evelyn's life and the family she loved: four children, 12 grand
 | File | Purpose |
 |---|---|
 | `index.html` | The whole website (layout, styles and scripts) |
-| `images/` | Photos used in the photo reel and portrait |
+| `evelyn-1.jpg` – `evelyn-6.jpg` | Photos used in the photo reel and portrait |
 | `CNAME` | Tells GitHub Pages to serve the site at rememberingevelyn.org |
+| `.nojekyll` | Tells GitHub Pages to publish the files as-is |
 
 ## Hosting
 
-The site is hosted with **GitHub Pages** from the `main` branch (root folder), and the custom domain is `rememberingevelyn.org`.
+The site is hosted with **GitHub Pages** from the `main` branch (root folder). The domain `rememberingevelyn.org` is registered and managed in Cloudflare, and `www.rememberingevelyn.org` redirects to the main address.
 
 ### Updating the site
 
-1. Edit `index.html`, or add photos to `images/`.
-2. Commit and push to `main`.
+1. Edit `index.html`, or upload new photos.
+2. Commit the change to `main`.
 3. GitHub Pages republishes the site within a minute or two.
 
 ### Adding a photo to the reel
 
-Copy one of the `<figure>` blocks in the photo-roll section of `index.html`, then change the `src` to the new image and write a short `alt` description of the photo.
+Upload the photo (for example `evelyn-7.jpg`), then copy one of the `<figure>` blocks in the photo-roll section of `index.html`, change the `src` to the new file name, and write a short `alt` description of the photo.
 
 ## Notes
 
